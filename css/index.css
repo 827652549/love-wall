@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.img{
+    position: absolute;
+    animation:mymove 2s infinite;
+    animation-direction:alternate;/*轮流反向播放动画。*/
+    animation-timing-function: ease-in-out; /*动画的速度曲线*/
+    transform-style:preserve-3d;
+    animation-iteration-count:1;
+}
+#img-1 {
+    animation-delay:4266ms;
+    left: 318px;
+    top: 94px;
+    width: 108px;
+    height: 81px;
+}
+#img-2 {
+    animation-delay:4266ms;
+    left: 562px;
+    top: 358px;
+    width: 231px;
+    height: 155px;
+}
+#img-12 {
+    animation-delay:11758ms;
+    left: 587px;
+    top: 161px;
+    width: 83px;
+    height: 111px;
+}
+
+#img-3 {
+    animation-delay:6766ms;
+
+    left: 996px;
+    top: 215px;
+    width: 110px;
+    height: 70px;
+}
+#img-13 {
+    animation-delay:6260ms;
+    left: 714px;
+    top: 160px;
+    width: 72px;
+    height: 131px;
+}
+
+#img-15 {
+    animation-delay:7761ms;
+    left: 822px;
+    top: 68px;
+    width: 82px;
+    height: 109px;
+}
+#img-5 {
+    animation-delay:11758ms;
+
+    left: 460px;
+    top: 68px;
+    width: 92px;
+    height: 126px;
+}
+#img-16 {
+    animation-delay:9263ms;
+
+    left: 945px;
+    top: 87px;
+    width: 107px;
+    height: 107px;
+}
+
+#img-14 {
+    animation-delay:11758ms;
+
+    left: 960px;
+    top: 332px;
+    width: 146px;
+    height: 64px;
+}
+
+#img-9 {
+    animation-delay:4266ms;
+
+    left: 894px;
+    top: 429px;
+    width: 80px;
+    height: 107px;
+}
+#img-7 {
+    animation-delay:6766ms;
+
+    left: 780px;
+    top: 539px;
+    width: 78px;
+    height: 105px;
+}
+#img-4 {
+    animation-delay:6260ms;
+
+    left: 629px;
+    top: 575px;
+    width: 98px;
+    height: 137px;
+}
+#img-11 {
+    animation-delay:9263ms;
+
+    left: 510px;
+    top: 539px;
+    width: 85px;
+    height: 96px;
+}
+#img-8 {
+    animation-delay:6766ms;
+
+    left: 386px;
+    top: 424px;
+    width: 82px;
+    height: 121px;
+}
+#img-18 {
+    animation-delay:7761ms;
+
+    left: 271px;
+    top: 322px;
+    width: 134px;
+    height: 74px;
+}
+#img-17 {
+    animation-delay:6260ms;
+
+    left: 248px;
+    top: 197px;
+    width: 125px;
+    height: 94px;
+}
+#img-10 {
+    animation-delay:7761ms;
+
+    left: 440px;
+    top: 223px;
+    width: 99px;
+    height: 156px;
+}
+#img-6 {
+    animation-delay:5263ms;
+
+    left: 819px;
+    top: 223px;
+    width: 116px;
+    height: 135px;
+
+}
+@keyframes mymove
+{
+    0%{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    25%{
+        transform: rotateX(0deg) rotateY(90deg);
+    }
+    50%{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    75%{
+        transform: rotateX(0deg) rotateY(90deg);
+    }
+    100%{
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+
+}
